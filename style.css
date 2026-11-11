@@ -1,7 +1,4 @@
 body {
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
@@ -31,4 +28,135 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding: 50px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.intro-image {
+    flex: 0 0 200px;
+    object-fit: cover;
+}
+
+.heading {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.button button {
+    width: 80px;
+    height: 30px;
+    background-color: #3882F6;
+    border-radius: 3px;
+    border: 0;
+    font-size: small;
+    color: #E5E7EB;
+    font-weight: bold;
+    
+}
+
+
+
+
+img {
+    height: 200px;
+    width: 250px;
+}
+
+
+.photo {
+    height: 170px;
+    
+    border: 4px solid #3b82f6;
+    border-radius: 14px;
+    margin-bottom: 8px;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.photo-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
+    display: flex;
+    background-color: white;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: 50px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.endbox {
+    border-radius: 20px;
+    background-color: #3882F6;
+    padding: 25px;
+    margin: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p1 {
+    color: white;
+    font-weight: bold;
+}
+
+.p2 {
+    color: white;
+    margin: 0px;
+}
+
+.button1 {
+    width: 120px;
+    height: 36px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 10px;       
+    font-weight: 600;
+    cursor: pointer;
 }
